@@ -9,7 +9,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/aerovad/VO2-Marvel)
 <!-- [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XVZXEH5RVBCZ6) -->
 
-[<img src="https://developer.garmin.com/static/available-badge-9e49ebfb7336ce47f8df66dfe45d28ae.svg" width="250">]([https://apps.garmin.com/apps/97b297da-429d-4fee-abcd-9f86f8d840d4](https://apps.garmin.com/de-DE/apps/ee9e5f07-f34b-4254-b91e-11071d976b58))
+[<img src="https://developer.garmin.com/static/available-badge-9e49ebfb7336ce47f8df66dfe45d28ae.svg" width="250">](https://apps.garmin.com/apps/97b297da-429d-4fee-abcd-9f86f8d840d4)
 
 ---
 
