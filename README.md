@@ -8,6 +8,10 @@
 ![GitHub forks](https://img.shields.io/github/forks/aerovad/VO2-Marvel)
 ![GitHub watchers](https://img.shields.io/github/watchers/aerovad/VO2-Marvel)
 
+## Support this project:
+[<img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" href="https://www.paypal.com/donate/?hosted_button_id=bovad">](https://www.paypal.com/donate/?hosted_button_id=bovad)
+
+
 [<img src="https://developer.garmin.com/static/available-badge-9e49ebfb7336ce47f8df66dfe45d28ae.svg" width="250">](https://apps.garmin.com/de-DE/apps/ee9e5f07-f34b-4254-b91e-11071d976b58)
 
 ---
