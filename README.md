@@ -1,7 +1,7 @@
 # VO2-marvel
 
 [![Version](https://img.shields.io/github/release/aerovad/VO2-Marvel)](https://github.com/aerovad/VO2-Marvel/releases/latest)
-[![Release date](https://img.shields.io/github/release-date/fevieira27/MoveToBeActive)](https://github.com/aerovad/VO2-Marvel/releases/latest)
+[![Release date](https://img.shields.io/github/release-date/aerovad/VO2-Marvel)](https://github.com/aerovad/VO2-Marvel/releases/latest)
 ![GitHub all releases](https://img.shields.io/github/downloads/aerovad/VO2-Marvel/total)
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/y/aerovad/VO2-Marvel)
 ![GitHub Repo stars](https://img.shields.io/github/stars/aerovad/VO2-Marvel)
