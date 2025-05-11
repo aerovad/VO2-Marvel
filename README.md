@@ -8,7 +8,15 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/aerovad/VO2-Marvel)
 ![GitHub forks](https://img.shields.io/github/forks/aerovad/VO2-Marvel)
 ![GitHub watchers](https://img.shields.io/github/watchers/aerovad/VO2-Marvel)
+
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](#)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?logo=whatsapp&logoColor=white)](#)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](#)
+[![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](#)
+[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://shields.io/)
+
 [<img src="https://developer.garmin.com/static/available-badge-9e49ebfb7336ce47f8df66dfe45d28ae.svg" width="250">](https://apps.garmin.com/de-DE/apps/ee9e5f07-f34b-4254-b91e-11071d976b58)
+
 
 ---
 
