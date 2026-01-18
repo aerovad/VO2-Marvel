@@ -18,7 +18,7 @@
 
 [![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://aerovad.com)
 
-[<img src="https://developer.garmin.com/static/available-badge-9e49ebfb7336ce47f8df66dfe45d28ae.svg" width="250">](https://apps.garmin.com/de-DE/apps/ee9e5f07-f34b-4254-b91e-11071d976b58)
+[<img src="https://developer.garmin.com/static/available-badge-9e49ebfb7336ce47f8df66dfe45d28ae.svg" width="250">](https://apps.garmin.com/apps/ee9e5f07-f34b-4254-b91e-11071d976b58)
 
 
 ---
