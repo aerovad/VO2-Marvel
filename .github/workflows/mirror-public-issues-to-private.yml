@@ -17,15 +17,15 @@ jobs:
     name: Copy issue to private repo
     runs-on: ubuntu-latest
     env:
-      PRIVATE_REPO: aerovad/aerovad-vo2-marvel
+      PRIVATE_REPO: ${{ secrets.PRIVATE_REPO_NAME }}
       MIRROR_TOKEN: ${{ secrets.PRIVATE_REPO_ISSUE_TOKEN }}
     steps:
-      - name: Require private repo token
+      - name: Require mirror secrets
         shell: bash
         run: |
-          if [ -z "$MIRROR_TOKEN" ]; then
-            echo "Missing required repository secret: PRIVATE_REPO_ISSUE_TOKEN" >&2
-            echo "Create a fine-grained token with Issues read/write access to $PRIVATE_REPO and store it as a secret in this public repo." >&2
+          if [ -z "$PRIVATE_REPO" ] || [ -z "$MIRROR_TOKEN" ]; then
+            echo "Missing required repository secrets for issue mirroring." >&2
+            echo "Add PRIVATE_REPO_NAME and PRIVATE_REPO_ISSUE_TOKEN in this public repo's Actions secrets." >&2
             exit 1
           fi
 
@@ -75,7 +75,7 @@ jobs:
               text = e.read().decode("utf-8", errors="replace")
               if e.code in ok:
                 return e.code, json.loads(text) if text else None
-              print(f"GitHub API error {method} {path}: HTTP {e.code}: {text}", file=sys.stderr)
+              print(f"GitHub API error {method}: HTTP {e.code}: {text}", file=sys.stderr)
               raise
 
           # Recreate missing labels in the private repo before assigning them.
@@ -100,4 +100,4 @@ jobs:
             payload["labels"] = label_names
 
           status, created = request("POST", f"/repos/{private_repo}/issues", payload, ok=(201,))
-          print(f"Mirrored public issue #{issue['number']} to {created['html_url']}")
+          print(f"Mirrored public issue #{issue['number']} to private repo")
